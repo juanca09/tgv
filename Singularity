@@ -11,11 +11,11 @@ export RAWR_BASE
 
 %runscript
 echo "This gets run when you run the image!" 
-exec /bin/bash /code/rawr.sh "$@"  
+exec /bin/bash /code/dino.sh "$@"  
 
-%post  
+%post 
 echo "This section happens once after bootstrap to build the image."  
 mkdir -p /code  
-echo "RoooAAAAR" >> /code/rawr.sh
-chmod u+x /code/rawr.sh  
+echo echo "echo \"RoooAAAAR\"" >> /code/dino.sh
+chmod u+x /code/dino.sh  
 
