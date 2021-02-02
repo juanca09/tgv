@@ -2,7 +2,7 @@ Bootstrap:docker
 From:ubuntu:16.04
 
 %labels
-MAINTAINER JCC
+MAINTAINER juanca09
 SPECIES Dinosaur
 
 %environment
