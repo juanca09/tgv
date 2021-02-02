@@ -16,6 +16,6 @@ exec /bin/bash /code/dino.sh "$@"
 %post 
 echo "This section happens once after bootstrap to build the image."  
 mkdir -p /code  
-echo echo "echo \"RoooAAAAR\"" >> /code/dino.sh
+echo "echo \"RoooAAAAR\"" >> /code/dino.sh
 chmod u+x /code/dino.sh  
 
